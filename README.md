@@ -11,7 +11,7 @@ This platform was developed to address the lack of flexible, accessible simulati
 
 You can access a running instance of the simulator here:
 
-- **IoT-Sim Live Application:** [https://adbermejo-ubu.github.io/iot-sim/](https://adbermejo-ubu.github.io/iot-sim/)
+- **IoT-Sim Live Application:** [https://gicap-ubu.github.io/iot-sim/](https://gicap-ubu.github.io/iot-sim/)
 
 ## Key Features
 
@@ -22,56 +22,6 @@ You can access a running instance of the simulator here:
 - **Configurable Network Conditions:** Introduce network variability, such as **latency** and **bandwidth limitations**, to evaluate model performance under realistic conditions.
 - **Client-Side Architecture:** Runs entirely in the user's browser, making it highly accessible and eliminating the need for expensive hardware or complex server deployments.
 - **Extensible:** Users can import external scripts to add new custom commands or attack types, extending the simulator's capabilities.
-
-## Getting Started
-
-### Prerequisites
-
-To run the simulator locally, you will need the following software installed:
-
-- **Node.js:** `v20.19.0` or higher
-- **Angular CLI:** `v21.0.0` or higher
-
-You can install the Angular CLI globally using npm:
-
-```bash
-npm install -g @angular/cli
-```
-
-### Installation & Running
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/adbermejo-ubu/iot-sim.git
-cd iot-sim
-```
-
-2. **Install dependencies:**
-
-```bash
-npm install
-```
-
-3. **Run the development server:**
-
-```bash
-npm run dev
-```
-
-4. **Access the simulator:** Open your web browser and navigate to `http://localhost:4200`.
-
-### Building for Production
-
-If you want to build the project for a production environment, run:
-
-```bash
-npm run build
-```
-
-This command generates the production-ready files in the `dist/` directory.
-
-> Before deploying, you may need to update the server base URL in the package.json scripts to point to the correct server address.
 
 ## Technical Stack
 
@@ -84,6 +34,10 @@ The simulator is built using the following technologies:
 - **Build System:** Node.js, npm, Angular CLI
 
 To prepare your own AI models, you will need a separate environment with Python (>= 3.10, < 3.12) and TensorFlow (>= 2.15.0). Models must be converted to TensorFlow.js format (>= 4.22.0) using the tensorflowjs converter tool to be compatible with the simulator.
+
+## Documentation
+
+For comprehensive guides and tutorials, please visit our **[Project Wiki](https://github.com/gicap-ubu/iot-sim/wiki)**.
 
 ## Contributing
 

@@ -152,7 +152,7 @@ export class MenuBarComponent {
 
     protected handleOnSourceCode() {
         window.open(
-            "https://github.com/adbermejo-ubu/iot-sim",
+            "https://github.com/gicap-ubu/iot-sim",
             "_blank",
             "noopener noreferrer",
         );
@@ -160,7 +160,7 @@ export class MenuBarComponent {
 
     protected handleOnDocumentation() {
         window.open(
-            "https://github.com/adbermejo-ubu/iot-sim/wiki",
+            "https://github.com/gicap-ubu/iot-sim/wiki",
             "_blank",
             "noopener noreferrer",
         );
