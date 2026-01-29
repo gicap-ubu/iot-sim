@@ -52,3 +52,24 @@ This project is licensed under the MIT License.
 This publication is part of the **AI4SECIoT project** ("Artificial Intelligence for Securing IoT Devices"), funded by the National Cybersecurity Institute (INCIBE) of Spain.
 
 This initiative is carried out within the framework of the Recovery, Transformation and Resilience Plan funds, financed by the **European Union (Next Generation)**.
+
+## Citation
+
+If you use **IoT-Sim** in your research or professional work, please cite our paper published in *SoftwareX*:
+
+**APA Style:**
+Diez Bermejo, A., Martinez Gonzalez, B., Gil-Arroyo, B., Rincón Arango, J., & Urda Muñoz, D. (2026). IoT-Sim: An interactive platform for designing and securing smart device networks. *SoftwareX*, 33, 102527. https://doi.org/10.1016/j.softx.2026.102527
+
+**BibTeX:**
+```bibtex
+@article{Diez_Bermejo_IoT-Sim_An_interactive_2026,
+  author = {Diez Bermejo, Alejandro and Martinez Gonzalez, Branly and Gil-Arroyo, Beatriz and Rincón Arango, Jaime and Urda Muñoz, Daniel},
+  doi = {10.1016/j.softx.2026.102527},
+  journal = {SoftwareX},
+  month = jan,
+  pages = {102527},
+  title = {{IoT-Sim: An interactive platform for designing and securing smart device networks}},
+  volume = {33},
+  year = {2026}
+}
+```
